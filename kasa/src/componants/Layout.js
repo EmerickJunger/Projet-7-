@@ -4,7 +4,9 @@ function Layout() {
 
     return (
         <>
-        <header>cul</header>
+        <header>
+            <div></div>
+        </header>
         <main>
             <Outlet/>
         </main>
