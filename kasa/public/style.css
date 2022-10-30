@@ -6,3 +6,66 @@
 a {
     color: black;
 }
+body{
+    margin: 0;
+}
+header {
+    width: 100%;
+    max-width: 1920px;
+}
+header img {
+    height: 45px;
+    
+}
+
+nav {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 100%;
+}
+
+nav a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ff6060;
+    text-transform: uppercase;
+}
+
+nav ul {
+    width: 60%;
+    display: flex;
+    padding-left: 50px;
+}
+
+nav li{
+    display: flex;
+    align-content: space-between;
+    margin-left: 8%;
+    font-size: 12px;
+    margin-top: 2%;
+    
+}
+footer {
+    background-color: black;
+    max-width: 1920px;
+    margin: 0;
+}
+footer p{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+footer img{
+    height: 40px;
+    width:122px;
+    margin-top: 15%;
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

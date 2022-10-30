@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Logo from "../assets/LOGO.png";
+import LogoWhite from "../assets/logo-white.png";
 
 function Layout() {
 
@@ -7,19 +8,24 @@ function Layout() {
         <>
         <header>
             <nav>
-                <a class="logo" href="/">
+                <a href="/">
                     <img src={Logo} alt=""/>
                 </a>
-                <ul class="menu">
-                    <li class="survol"><a href="#hebergements">Accueil</a></li>
-                    <li class="survol"><a href="#activites">À propos</a></li>
+                <ul>
+                    <li><a href="#hebergements">Accueil</a></li>
+                    <li><a href="#activites">A Propos</a></li>
                 </ul>
             </nav>   
         </header>
         <main>
             <Outlet/>
         </main>
-        <footer>bite</footer>
+        <footer>
+                <a href="/">
+                    <img src={LogoWhite} alt=""/>
+                    <p>© 2020 Kasa. All rights reserved</p>
+                </a>
+        </footer>
         </>
     );
   };
