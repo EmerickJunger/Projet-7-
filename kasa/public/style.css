@@ -22,7 +22,7 @@ nav {
     display: flex;
     margin-left: 5%;
     margin-top: 4%;
-    width: 99%;
+    width: 90%;
 }
 
 nav a {
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav ul {
-    width: 60%;
+    width: 100%;
     display: flex;
     padding-left: 50px;
 }
@@ -48,16 +48,17 @@ nav li{
     
 }
 figure{
+    display: flex;
     margin: 0;
-    margin-left: 5.5%;
-    margin-top: 5%;
-    padding: 0;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 90%;
+    height: 220px;
 }
 
 figure img{
-    border-radius: 10px;
-    height: 110px;
-    position: relative;
+    border-radius: 20px;
+    width: 100%;
 }
 figure h1{
     position: absolute;

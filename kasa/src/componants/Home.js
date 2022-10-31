@@ -1,6 +1,5 @@
 //import { Link } from "react-router-dom";
 import Cote from "../assets/IMG.jpg";
-import Background from "../assets/Background.jpg";
 
 function Home() {
 
