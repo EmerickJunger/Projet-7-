@@ -34,9 +34,10 @@ nav a {
 }
 
 nav ul {
-    width: 100%;
     display: flex;
+    width: 100%;
     padding-left: 50px;
+    justify-content: flex-end;
 }
 
 nav li{
@@ -53,37 +54,58 @@ figure{
     margin-left: 5%;
     margin-top: 3%;
     width: 90%;
-    height: 220px;
+    height: 110px;
 }
 
 figure img{
     border-radius: 20px;
     width: 100%;
 }
+
+.filter{
+    position: absolute;
+    margin: 0;
+    width: 90%;
+    height: 110px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.15);
+}
 figure h1{
     position: absolute;
-    top: 14%;
+    top: 13%;
     left: 10%;
     display: flex;
     width: 58%;
     color: white;
     font-size: 24px;
 }
-filter{
-    /*position: absolute;*/
-    width: 100%;
-    height: 100%;
-    /*background: rgba(0, 0, 0, 15);*/
-    opacity: 50%;
-    background-color: red;
+.cards{
+    display: flex;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 255px;
+    background-color: #ff6060;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #ff6060 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.titre{
+    font-size: 18px;
+    margin-top: 58%;
+    margin-left: 5%;
+    width: 35%;
+    color: white;
 }
 footer {
     background-color: black;
     max-width: 1920px;
     margin: 0;
+    flex-grow: 1;
+    margin-top: 5%;
 }
 footer p{
-    display: flex;
+
     color: white;
     font-size: 12px;
     margin-top: 10%;
