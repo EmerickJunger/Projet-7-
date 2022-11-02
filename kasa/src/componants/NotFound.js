@@ -3,13 +3,13 @@ function NotFound() {
     return (
         <>
         <div>
-          <h2>
+          <h2 className="error">
             404
           </h2>
-          <p>
+          <p className="notfound">
             Oups! La page que vous demandez n'existe pas.
           </p>
-          <a href="/">
+          <a href="/" className="return">
             Retourner sur la page d'accueil
           </a>
         </div>
