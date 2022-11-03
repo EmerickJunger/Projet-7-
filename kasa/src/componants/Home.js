@@ -10,7 +10,7 @@ function Home() {
             <h1>Chez vous, partout et ailleurs</h1>
             <div className="filter"></div>
           </figure>
-          <a href="/NotFound">
+          <a href="/Place">
             <figure className="cards">
             <p className="titre">Titre de la location</p>
           </figure>

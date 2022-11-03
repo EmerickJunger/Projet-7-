@@ -7,8 +7,9 @@ function NotFound() {
             404
           </h2>
           <p className="notfound">
-            Oups! La page que vous demandez n'existe pas.
+            Oups! La page que
           </p>
+          <p className="notfound">vous demandez n'existe pas.</p>
           <a href="/" className="return">
             Retourner sur la page d'accueil
           </a>

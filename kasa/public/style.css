@@ -122,19 +122,35 @@ footer a{
     align-items: center;
 }
 .error{
-
+    display: flex;
+    justify-content: center;
     width: 50%;
-    margin: 25%;
+    margin-left: 25%;
     font-size: 96px;
     font-weight: bold;
     color: #ff6060;
+    margin-bottom: 3%;
+    margin-top: 40%;
 }
 .notfound{
     color: #ff6060;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 .return{
     color: #ff6060;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 35%;
+    margin-bottom: 70%;
 }
