@@ -19,6 +19,15 @@ function Place() {
               <li className="filtre">Détail</li>
             </ul>
           </div>
+          <div>
+            <ul className="notation">
+              <li><i className="fas fa-star etoiles"></i></li>
+              <li><i className="fas fa-star etoiles"></i></li>
+              <li><i className="fas fa-star etoiles"></i></li>
+              <li><i className="fas fa-star etoiles"></i></li>
+              <li><i className="fas fa-star gray-star"></i></li>
+            </ul>
+          </div>
         </div>
         </>
     );

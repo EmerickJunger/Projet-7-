@@ -204,3 +204,19 @@ footer a{
     margin-bottom: 2%;
     margin-top: 2%;
 }
+.etoiles
+{
+    display: flex;
+    background-color: white;
+    padding: 0;
+    color: #0065FC;
+}
+.notation
+{
+    padding: 0;
+    display: inline-block;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
