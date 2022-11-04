@@ -4,7 +4,6 @@ function Place() {
         <>
         <div>
           <figure className="logis">
-
           </figure>
           <h2 className="place">
             Lieu, avec précision
@@ -35,6 +34,22 @@ function Place() {
               </figure>
             </div>
           </div>
+          <details className="description">
+            <summary className="entete">Description</summary>
+            <div>
+              <p className="more">
+                climatisation
+              </p>
+            </div>
+          </details>
+          <details className="description">
+            <summary className="entete">Description</summary>
+            <div>
+              <p className="more">
+                climatisation
+              </p>
+            </div>
+          </details>
         </div>
         </>
     );

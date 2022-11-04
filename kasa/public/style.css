@@ -216,7 +216,7 @@ footer a{
     padding: 0;
     display: inline-block;
     display: flex;
-    margin-top: 0;
+    margin-top: 2%;
     margin-bottom: 0;
     /*margin-left: 5%;
     width: 50%;*/
@@ -231,7 +231,6 @@ footer a{
     font-size: 12px;
     width: 21%;
     text-align: right;
-    margin-left: 40%;
 }
 .info{
     display: flex;
@@ -250,4 +249,24 @@ footer a{
 .user{
     display: flex;
     width: 100%;
+    justify-content: flex-end;
+}
+.description{
+    display: flex;
+    height: 30px;
+    background-color: #ff6060;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    margin-top: 5%;
+    padding-left: 3%;
+    width: 87%;
+    margin-left: 5%;
+}
+.entete{
+    align-items: center;
+    /*list-style-type: none;*/
+}
+.more{
+    color: black;
 }
