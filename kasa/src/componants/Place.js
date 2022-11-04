@@ -19,7 +19,7 @@ function Place() {
               <li className="filtre">Détail</li>
             </ul>
           </div>
-          <div>
+          <div className="info">
             <ul className="notation">
               <li><i className="fa-solid fa-star etoiles"></i></li>
               <li><i className="fa-solid fa-star etoiles"></i></li>
@@ -27,6 +27,13 @@ function Place() {
               <li><i className="fa-solid fa-star etoiles"></i></li>
               <li><i className="fa-solid fa-star gray-star"></i></li>
             </ul>
+            <div className="user">
+              <p className="name">
+                Prénom Nom
+              </p>
+              <figure className="profile">
+              </figure>
+            </div>
           </div>
         </div>
         </>

@@ -208,8 +208,8 @@ footer a{
 {
     display: flex;
     background-color: white;
-    padding: 0;
-    color: #0065FC;
+    color: #ff6060;
+    width: 5%;
 }
 .notation
 {
@@ -218,6 +218,36 @@ footer a{
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 5%;
+    /*margin-left: 5%;
+    width: 50%;*/
     list-style-type: none;
+}
+.gray-star{
+    color: #E3E3E3;
+}
+.name{
+    display: flex;
+    margin-top: 0;
+    font-size: 12px;
+    width: 21%;
+    text-align: right;
+    margin-left: 40%;
+}
+.info{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.profile{
+    display: flex;
+    background-color: #c4c4c4;
+    margin-top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+.user{
+    display: flex;
+    width: 100%;
 }
