@@ -21,11 +21,11 @@ function Place() {
           </div>
           <div>
             <ul className="notation">
-              <li><i className="fas fa-star etoiles"></i></li>
-              <li><i className="fas fa-star etoiles"></i></li>
-              <li><i className="fas fa-star etoiles"></i></li>
-              <li><i className="fas fa-star etoiles"></i></li>
-              <li><i className="fas fa-star gray-star"></i></li>
+              <li><i className="fa-solid fa-star etoiles"></i></li>
+              <li><i className="fa-solid fa-star etoiles"></i></li>
+              <li><i className="fa-solid fa-star etoiles"></i></li>
+              <li><i className="fa-solid fa-star etoiles"></i></li>
+              <li><i className="fa-solid fa-star gray-star"></i></li>
             </ul>
           </div>
         </div>
