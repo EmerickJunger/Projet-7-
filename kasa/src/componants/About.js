@@ -1,9 +1,12 @@
+import Mountain  from "../assets/mountain.png";
+
 function About() {
 
     return (
         <>
         <div>
           <figure className="vue">
+          <img src={Mountain} alt=""/>
           </figure>
           <details className="description">
               <summary className="entete">

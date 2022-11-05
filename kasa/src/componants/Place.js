@@ -43,7 +43,7 @@ function Place() {
             </div>
           </details>
           <details className="description">
-            <summary className="entete">Description</summary>
+            <summary className="entete">Équipements</summary>
             <div className="deroulant">
               <p className="more">
                 climatisation

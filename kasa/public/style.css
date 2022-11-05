@@ -8,10 +8,11 @@ a {
 }
 body{
     margin: 0;
+    position: relative;
 }
 header {
     width: 100%;
-    max-width: 1920px;
+    position: relative;
 }
 header img {
     height: 45px;
@@ -92,15 +93,17 @@ figure h1{
 }
 .titre{
     font-size: 18px;
-    margin-top: 58%;
     margin-left: 5%;
     width: 35%;
-    color: white;
+    color: black;
 }
 footer {
+    display: flex;
     background-color: black;
     margin: 0;
     margin-top: 5%;
+    position: absolute;
+    width: 100%;
 }
 footer p{
 
@@ -118,6 +121,7 @@ footer a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 25%;
 }
 .error{
     display: flex;
@@ -216,8 +220,6 @@ footer a{
     display: flex;
     margin-top: 2%;
     margin-bottom: 0;
-    /*margin-left: 5%;
-    width: 50%;*/
     list-style-type: none;
 }
 .gray-star{
@@ -263,7 +265,6 @@ footer a{
 }
 .entete{
     align-items: center;
-    /*list-style-type: none;*/
 }
 .more{
     color: black;
@@ -274,10 +275,12 @@ footer a{
     border-radius: 5px;
 }
 .vue{
-    background-color: red;
     height: 223px;
     border-radius: 10px;
     margin-top: 5%;
+}
+main{
+    position: relative;
 }
 @media (min-width: 768px) and (max-width: 1024px)
 {
@@ -306,6 +309,36 @@ footer a{
     footer p{
         font-size: 20px;
     };
+    footer a{
+        padding-left: 30%;
+    }
+    .description{
+        height: 45px;
+        font-size: 20px;
+    }
+    .vue{
+        height: 300px;
+    }
+    .logis{
+        height: 320px;
+    }
+    .place{
+        font-size: 30px;
+    }
+    .town{
+        font-size: 26px;
+    }
+    .filtre{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .profile{
+        width: 64px;
+        height: 64px;
+        border-radius: 40px;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1920px)
 {
@@ -345,5 +378,44 @@ footer a{
     }
     footer{
         height: 210px;
+    }
+    footer a{
+        padding-left: 40%;
+    }
+    .place{
+        font-size: 30px;
+    }
+    .description{
+        height: 47px;
+        font-size: 20px;
+        width: 70%;
+        margin-left: 13.5%;
+        margin-top: 2%;
+    }
+    .vue{
+        height: 250px;
+    }
+    .logis{
+        height: 320px;
+    }
+    .place{
+        font-size: 36px;
+    }
+    .town{
+        font-size: 26px;
+    }
+    .filtre{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 26px;
+    }
+    .profile{
+        width: 64px;
+        height: 64px;
+        border-radius: 40px;
+    }
+    main{
+        margin-bottom: 5%;
     }
 }
