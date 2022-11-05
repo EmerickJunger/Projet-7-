@@ -6,10 +6,13 @@ function NotFound() {
           <h2 className="error">
             404
           </h2>
-          <p className="notfound">
-            Oups! La page que
-          </p>
-          <p className="notfound">vous demandez n'existe pas.</p>
+          <div className="text">
+            <p className="notfound">
+              Oups! La page que vous demandez n'existe pas.
+            </p>
+            <p className="notfound">
+            </p>
+          </div>
           <a href="/" className="return">
             Retourner sur la page d'accueil
           </a>

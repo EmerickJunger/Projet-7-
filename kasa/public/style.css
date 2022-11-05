@@ -99,9 +99,7 @@ figure h1{
 }
 footer {
     background-color: black;
-    max-width: 1920px;
     margin: 0;
-    flex-grow: 1;
     margin-top: 5%;
 }
 footer p{
@@ -280,4 +278,72 @@ footer a{
     height: 223px;
     border-radius: 10px;
     margin-top: 5%;
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    header img{
+        height: 70px;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    .error{
+        font-size: 130px;
+        margin-top: 30%;
+    }
+    .notfound{
+        font-size: 26px;
+    }
+    .return{
+        font-size: 22px;
+        margin-top: 25%;
+        margin-bottom: 60%;
+    }
+    footer img{
+        height: 70px;
+        width: 210px;
+    }
+    footer p{
+        font-size: 20px;
+    };
+}
+@media (min-width: 1024px) and (max-width: 1920px)
+{
+    header img{
+        height: 68px;
+    }
+    nav{
+        margin-top: 2%;
+    }
+    nav li{
+        font-size: 24px;
+    }
+    .error{
+        font-size: 288px;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .notfound{
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .return{
+        font-size: 22px;
+        margin-top: 6%;
+        margin-bottom: 10%;
+    }
+    footer img{
+        height: 40px;
+        width: 120px;
+    }
+    footer p{
+        font-size: 24px;
+    };
+    .text{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    footer{
+        height: 210px;
+    }
 }
