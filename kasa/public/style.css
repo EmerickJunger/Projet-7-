@@ -270,3 +270,14 @@ footer a{
 .more{
     color: black;
 }
+.deroulant{
+    background-color: green;
+    height: 143px;
+    border-radius: 5px;
+}
+.vue{
+    background-color: red;
+    height: 223px;
+    border-radius: 10px;
+    margin-top: 5%;
+}

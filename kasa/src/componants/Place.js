@@ -36,7 +36,7 @@ function Place() {
           </div>
           <details className="description">
             <summary className="entete">Description</summary>
-            <div>
+            <div className="deroulant">
               <p className="more">
                 climatisation
               </p>
@@ -44,7 +44,7 @@ function Place() {
           </details>
           <details className="description">
             <summary className="entete">Description</summary>
-            <div>
+            <div className="deroulant">
               <p className="more">
                 climatisation
               </p>
