@@ -5,15 +5,15 @@ function Home() {
 
     return (
         <>
-          <figure>
+          <figure className="coast">
             <img src={Cote} alt=""/>
-            <h1>Chez vous, partout et ailleurs</h1>
+            <h1 className="quote">Chez vous, partout et ailleurs</h1>
             <div className="filter"></div>
           </figure>
-          <a href="/About">
+          <a href="/About" className="loc">
             <figure className="cards">
-            <p className="titre">Titre de la location</p>
-          </figure>
+              <p className="titre">Titre de la location</p>
+            </figure>
           </a>
         </>
     );
