@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom"
 
 import NotFound from "../views/NotFound"
 
-import Gallery from "../components/Gallery"
-import Tags from "../components/Tags"
-import Rating from "../components/Rating"
-import Collapsible from "../components/Collapsible"
-import EquipmentsList from "../components/EquipmentsList"
+import Gallery from "../componants/Gallery"
+import Tags from "../componants/Tags"
+import Rating from "../componants/Rating"
+import Collapsible from "../componants/Collapsible"
+import EquipmentsList from "../componants/EquipmentsList"
 
 function Place () {
   const { id } = useParams()

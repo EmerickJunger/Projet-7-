@@ -1,7 +1,7 @@
 import heroAbout from "../assets/hero-about.png"
 import abouts from "../assets/about.json"
 
-import Collapsible from "../components/Collapsible"
+import Collapsible from "../componants/Collapsible"
 
 function About() {
 

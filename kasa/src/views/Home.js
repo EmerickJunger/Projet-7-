@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 import hero from "../assets/hero.jpg"
-import Cards from "../components/Cards"
+import Cards from "../componants/Cards"
 
 function Home () {
   let [loading, setLoading] = useState(true)
