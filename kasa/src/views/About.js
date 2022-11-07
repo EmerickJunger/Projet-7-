@@ -1,4 +1,4 @@
-import moutain from "../assets/mountain.png"
+import mountain from "../assets/mountain.png"
 import abouts from "../assets/about.json"
 
 import Collapsible from "../componants/Collapsible"
