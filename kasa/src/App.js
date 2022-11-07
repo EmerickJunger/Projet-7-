@@ -1,9 +1,9 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import Layout from "./componants/Layout"
-import Home from "./componants/Home";
-import Place from "./componants/Place";
-import NotFound from "./componants/NotFound";
-import About from "./componants/About";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Layout from "./views/Layout"
+import Home from "./views/Home"
+import Place from "./views/Place"
+import About from "./views/About"
+import NotFound from "./views/NotFound"
 
 function App() {
   const router = createBrowserRouter([
@@ -16,7 +16,7 @@ function App() {
           element: <Home/>
         },
         {
-          path: "/place",
+          path: "/place/:id",
           element: <Place/>
         },
         {
