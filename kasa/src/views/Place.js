@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom"
 import NotFound from "../views/NotFound"
 
 import Gallery from "../componants/Gallery"
-import Tags from "../componants/Tags"
+import Tags from "../componants/Tag"
 import Rating from "../componants/Rating"
 import Collapsible from "../componants/Collapsible"
 import EquipmentsList from "../componants/EquipmentsList"

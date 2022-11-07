@@ -1,4 +1,4 @@
-import heroAbout from "../assets/hero-about.png"
+import moutain from "../assets/mountain.png"
 import abouts from "../assets/about.json"
 
 import Collapsible from "../componants/Collapsible"
@@ -13,7 +13,7 @@ function About() {
     return (
         <>
       <section className="hero-about">
-        <img src={heroAbout} alt="" />
+        <img src={mountain} alt="" />
       </section>
       <section className="about">{aboutsCollapsibles}</section>
     </>
