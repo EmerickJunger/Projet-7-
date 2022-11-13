@@ -1,8 +1,10 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet, useResolvedPath } from "react-router-dom"
 import logo from "../assets/LOGO.png"
 import logoWhite from "../assets/logo-white.png"
 
 function Layout () {
+  const resolvedPath = useResolvedPath()
+
   return (
     <>
       <header>
@@ -10,8 +12,8 @@ function Layout () {
           <img src={logo} alt="" />
         </Link>
         <nav>
-          <Link to="/">Accueil</Link>
-          <Link to="/about">A propos</Link>
+          <Link to="/" className={ resolvedPath.pathname === "/" ? "active" : ""}>Accueil</Link>
+          <Link to="/about" className={ resolvedPath.pathname === "/about" ? "active" : ""}>A propos</Link>
         </nav>
       </header>
       <main>
