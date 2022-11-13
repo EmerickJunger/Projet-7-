@@ -3,7 +3,7 @@ function Collapsible (props) {
   
     return(
       <details>
-        <summary><div>{summary}</div></summary>
+        <summary>{summary}</summary>
         {content}
       </details>
     )
