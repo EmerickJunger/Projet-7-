@@ -18,9 +18,13 @@ function Gallery (props) {
 
   return(
     <section className="gallery">
+        { pictures.length !== 1 && 
       <i className="fas fa-angle-left btn btn-left" onClick={() => changePicture("prev")}></i>
+        }
       <img src={pictures[index]} alt="" />
+        { pictures.length !== 1 && 
       <i className="fas fa-angle-right btn btn-right" onClick={() => changePicture("next")}></i>
+        }
       <div>{index + 1}/{pictures.length}</div>
     </section>
   )
